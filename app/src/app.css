@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+
+
+@theme {
+    --color-dullWhite: #EFEEE5;
+    --color-gold: #EF790A;
+    --color-dullgold: #D9D9D9;
+    --color-white:#FFFFFF;
+}
