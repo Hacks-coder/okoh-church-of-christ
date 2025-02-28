@@ -8,16 +8,16 @@
 </script>
 
 
-<div class="bg-white p-2 w-full rounded-4xl">
-    <form class="flex flex-col gap-3 text-center items-center ">
+<div class="@container bg-white p-2 w-full rounded-4xl">
+    <form class="flex flex-col gap-5 text-center items-center ">
         <Title text = "Create An Account" />
-        <div class="bg-dullgold w-80 rounded-xl px-3 flex gap-2 items-center shadow-xs shadow-black">
+        <div class="bg-dullgold w-80 rounded-xl px-3 flex gap-2  items-center shadow-xs shadow-black @md:w-90 @md:h-13 @xl:w-120 ">
             <IconEmail class="text-xl text-gold"/>
             <input type="email" placeholder="Enter your email" required class="bg-transparent focus:outline-none h-10 w-70 placeholder:text-black">
         </div>
-        <div class="bg-dullgold w-80 rounded-xl px-3 flex gap-2 items-center shadow-xs shadow-black">
+        <div class="bg-dullgold w-80 rounded-xl px-3 flex gap-2 items-center shadow-xs shadow-black @md:w-90 @md:h-13 @xl:w-120">
             <IconPassword class="text-xl text-gold"/>
-            <input type="password" placeholder="Enter your password" required class="bg-transparent focus:outline-none h-10 w-70 placeholder:text-black">
+            <input type="password" placeholder="Enter your password" required class="bg-transparent focus:outline-none h-10 w-70 placeholder:text-black @md:w-100">
             <IconEyeClosed class="text-xl text-gold"/>
         </div>
         <div class="flex gap-2">
